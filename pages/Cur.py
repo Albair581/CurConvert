@@ -224,7 +224,7 @@ def convert(p):
     return ex_result
 
 
-@st.experimental_dialog("計算結果Convertion Result")
+@st.dialog("計算結果Convertion Result")
 def showRes(res):
     st.write(f"<h1>{str(res)}</h1>", unsafe_allow_html=True)
 
